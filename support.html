@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VANDR — Support</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --bg-card: #14141f;
+      --text: #ffffff;
+      --text-dim: #8a8aa0;
+      --accent: #c8f230;
+      --border: #1f1f2e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 60px 20px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    a.back { color: var(--text-dim); font-size: 13px; text-decoration: none; }
+    a.back:hover { color: var(--accent); }
+    h1 {
+      font-size: 32px;
+      letter-spacing: -1px;
+      margin-top: 24px;
+      margin-bottom: 32px;
+    }
+    h2 {
+      margin-top: 36px;
+      margin-bottom: 12px;
+      font-size: 18px;
+      color: var(--accent);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    p { margin-bottom: 16px; color: #d0d0e0; }
+    a { color: var(--accent); }
+    strong { color: var(--text); }
+    .contact-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+    .contact-card a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 20px;
+      background: var(--accent);
+      color: #0a0a0f;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    details {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 10px;
+    }
+    details[open] { border-color: var(--accent); }
+    summary { font-weight: 600; cursor: pointer; }
+    details p { margin-top: 10px; margin-bottom: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="./index.html" class="back">&larr; Back to VANDR</a>
+    <h1>Support</h1>
+
+    <h2>Contact</h2>
+    <div class="contact-card">
+      <p>The fastest way to reach us is email. Replies usually within 1–2 days.</p>
+      <a href="mailto:emrealpogunc@gmail.com?subject=VANDR%20Support">Email Support</a>
+    </div>
+
+    <h2>Frequently Asked</h2>
+
+    <details>
+      <summary>Will I lose my data if I delete the app?</summary>
+      <p>Yes. VANDR stores everything locally on your device. Uninstalling permanently deletes your data. If you're moving to a new phone, set up iCloud restore <em>before</em> deleting VANDR on the old one so your data carries over.</p>
+    </details>
+
+    <details>
+      <summary>I lost my streak. Can you restore it?</summary>
+      <p>Unfortunately we cannot — your data lives only on your device. To prevent losing a streak in future, use the grace days (up to 3 per month) when a day slips, or enable Daily Workout Reminder in Profile → Notifications.</p>
+    </details>
+
+    <details>
+      <summary>How do I restore my PRO purchase?</summary>
+      <p>Open VANDR PRO from Profile or any locked PRO screen, scroll down and tap <strong>Restore Purchase</strong>. Make sure you're signed in to the App Store with the same Apple ID you originally bought PRO with.</p>
+    </details>
+
+    <details>
+      <summary>How does the streak grace day work?</summary>
+      <p>If you miss a single day, you can use a grace day to keep your streak alive. Each calendar month gives you up to 3 grace days. The option appears on the Home screen the day after a missed day, only if your streak is at least 2 days long.</p>
+    </details>
+
+    <details>
+      <summary>Can I change my daily reminder time?</summary>
+      <p>Yes — Profile → Notifications. You can pick from the preset times, or (PRO) set any custom time.</p>
+    </details>
+
+    <details>
+      <summary>How is the daily water goal calculated?</summary>
+      <p>VANDR uses your weight × 35 ml when weight is logged. If you've only entered height, it estimates ideal body weight and uses that × 35 ml. If neither is set, it defaults to 2.5 L. You can override with a custom goal in the Hydration sheet.</p>
+    </details>
+
+    <details>
+      <summary>Can I export my workout history?</summary>
+      <p>Not yet. Export is on the roadmap. If you need it urgently, email us and we can advise.</p>
+    </details>
+
+    <details>
+      <summary>How do I delete my account / data?</summary>
+      <p>VANDR doesn't use accounts. To erase everything: Profile → App → <em>Reset All Data</em>, or uninstall the app. Both fully delete your VANDR data from your device.</p>
+    </details>
+
+    <h2>Feature requests &amp; bug reports</h2>
+    <p>Email us at <a href="mailto:emrealpogunc@gmail.com">emrealpogunc@gmail.com</a> with screenshots if you can. We read everything and respond personally.</p>
+
+  </div>
+</body>
+</html>
